@@ -57,5 +57,58 @@ var resultado= valor ?? "el valor es nulo";
 
 
 
+# arreglos y listado
 
+## arreglo
+
+```c#
+var variable=new tipodato[cantidad]();
+```
+
+* donde **tipodato** es el tipo de datos, ejemplo: "int", "string", "modelo", etc.
+* donde **cantidad** es la cantidad de elementos del arreglo.
+
+Ejemplo:
+
+```c++
+var colores=new string[3];
+colores[0]="rojo";
+colores[1]="verde";
+colores[2]="azul";
+Console.WriteLine(colores[0]);
+```
+
+
+
+
+
+## listado
+
+```c#
+`var variable= new List<tipodedatos>();
+```
+
+donde **tipodato** es el tipo de datos, ejemplo: "int", "string", "modelo", etc.
+
+ Ejemplo:
+
+```c#
+var colores=new List<string>();
+colores.Add("rojo");
+colores.Add("verde");
+colores.Add("azul");
+Console.WriteLine(colores[0]);
+```
+
+> Hay una clase que es similar a **List** que son los **HashSet**
+
+Ejemplo HashSet
+
+```csharp
+var colores=new HashSet<string>();
+colores.Add("rojo");
+colores.Add("verde");
+colores.Add("azul");
+Console.WriteLine(colores[0]);
+```
 
